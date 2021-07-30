@@ -22,18 +22,18 @@
                             </view>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="1P5-2D-99z">
                                 <rect key="frame" x="18" y="744" width="378" height="31"/>
-                                <color key="minimumTrackTintColor" systemColor="systemBlueColor"/>
+                                <color key="minimumTrackTintColor" systemColor="systemGreenColor"/>
                                 <color key="maximumTrackTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="thumbTintColor" systemColor="systemBlueColor"/>
+                                <color key="thumbTintColor" systemColor="systemGreenColor"/>
                                 <connections>
                                     <action selector="greenSlide:" destination="BYZ-38-t0r" eventType="valueChanged" id="FaC-Lf-kWv"/>
                                 </connections>
                             </slider>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="xj3-h8-IGt">
                                 <rect key="frame" x="18" y="804" width="378" height="31"/>
-                                <color key="minimumTrackTintColor" systemColor="systemGreenColor"/>
+                                <color key="minimumTrackTintColor" systemColor="systemBlueColor"/>
                                 <color key="maximumTrackTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="thumbTintColor" systemColor="systemGreenColor"/>
+                                <color key="thumbTintColor" systemColor="systemBlueColor"/>
                                 <connections>
                                     <action selector="blueSlide:" destination="BYZ-38-t0r" eventType="valueChanged" id="S8s-6y-RcX"/>
                                 </connections>
@@ -54,7 +54,7 @@
                                     <constraint firstAttribute="width" constant="78" id="H7Q-jv-DxS"/>
                                     <constraint firstAttribute="height" constant="46" id="jgI-eo-OZ6"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -65,7 +65,7 @@
                                     <constraint firstAttribute="height" constant="46" id="kvM-vW-7Mv"/>
                                     <constraint firstAttribute="width" constant="78" id="w86-hP-kgv"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -76,7 +76,7 @@
                                     <constraint firstAttribute="height" constant="46" id="f4V-gf-Q8H"/>
                                     <constraint firstAttribute="width" constant="78" id="kC8-E7-344"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
