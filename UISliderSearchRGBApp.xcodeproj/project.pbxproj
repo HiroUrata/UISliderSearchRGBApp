@@ -13,6 +13,7 @@
 		5455E3E526B3E341007FA9D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5455E3E326B3E341007FA9D1 /* Main.storyboard */; };
 		5455E3E726B3E345007FA9D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5455E3E626B3E345007FA9D1 /* Assets.xcassets */; };
 		5455E3EA26B3E345007FA9D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5455E3E826B3E345007FA9D1 /* LaunchScreen.storyboard */; };
+		5455E3F226B3EB76007FA9D1 /* ColorConverterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5455E3F126B3EB76007FA9D1 /* ColorConverterModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		5455E3E626B3E345007FA9D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5455E3E926B3E345007FA9D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5455E3EB26B3E345007FA9D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5455E3F126B3EB76007FA9D1 /* ColorConverterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorConverterModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				5455E3DD26B3E341007FA9D1 /* AppDelegate.swift */,
 				5455E3DF26B3E341007FA9D1 /* SceneDelegate.swift */,
 				5455E3E126B3E341007FA9D1 /* ViewController.swift */,
+				5455E3F126B3EB76007FA9D1 /* ColorConverterModel.swift */,
 				5455E3E326B3E341007FA9D1 /* Main.storyboard */,
 				5455E3E626B3E345007FA9D1 /* Assets.xcassets */,
 				5455E3E826B3E345007FA9D1 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5455E3F226B3EB76007FA9D1 /* ColorConverterModel.swift in Sources */,
 				5455E3E226B3E341007FA9D1 /* ViewController.swift in Sources */,
 				5455E3DE26B3E341007FA9D1 /* AppDelegate.swift in Sources */,
 				5455E3E026B3E341007FA9D1 /* SceneDelegate.swift in Sources */,
@@ -295,7 +299,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.UISliderSearchRGB.UISliderSearchRGBApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -313,7 +317,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.UISliderSearchRGB.UISliderSearchRGBApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

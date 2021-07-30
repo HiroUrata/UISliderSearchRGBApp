@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  UISliderSearchRGBApp
 //
-//  Created by UrataHiroki on 2021/07/30.
+//  Created on 2021/07/30.
 //
 
 import UIKit
