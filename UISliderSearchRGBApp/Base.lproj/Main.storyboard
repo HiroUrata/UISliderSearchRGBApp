@@ -22,18 +22,27 @@
                             </view>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="1P5-2D-99z">
                                 <rect key="frame" x="18" y="744" width="378" height="31"/>
+                                <color key="minimumTrackTintColor" systemColor="systemBlueColor"/>
+                                <color key="maximumTrackTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="thumbTintColor" systemColor="systemBlueColor"/>
                                 <connections>
                                     <action selector="greenSlide:" destination="BYZ-38-t0r" eventType="valueChanged" id="FaC-Lf-kWv"/>
                                 </connections>
                             </slider>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="xj3-h8-IGt">
                                 <rect key="frame" x="18" y="804" width="378" height="31"/>
+                                <color key="minimumTrackTintColor" systemColor="systemGreenColor"/>
+                                <color key="maximumTrackTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="thumbTintColor" systemColor="systemGreenColor"/>
                                 <connections>
                                     <action selector="blueSlide:" destination="BYZ-38-t0r" eventType="valueChanged" id="S8s-6y-RcX"/>
                                 </connections>
                             </slider>
-                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="BhT-yI-BHd">
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="-0.5" maxValue="1.5" translatesAutoresizingMaskIntoConstraints="NO" id="BhT-yI-BHd">
                                 <rect key="frame" x="18" y="685" width="378" height="31"/>
+                                <color key="minimumTrackTintColor" systemColor="systemRedColor"/>
+                                <color key="maximumTrackTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="thumbTintColor" systemColor="systemRedColor"/>
                                 <connections>
                                     <action selector="redSlide:" destination="BYZ-38-t0r" eventType="valueChanged" id="Q4e-CG-yQu"/>
                                 </connections>
@@ -115,9 +124,12 @@
                     </view>
                     <connections>
                         <outlet property="blueSlider" destination="xj3-h8-IGt" id="6r2-Lq-bhl"/>
+                        <outlet property="blueValueLabel" destination="nxb-Us-xr7" id="jxi-cN-2Ip"/>
                         <outlet property="colorDebugView" destination="FQ7-gQ-Gab" id="MZZ-4o-H1u"/>
                         <outlet property="greenSlider" destination="1P5-2D-99z" id="dyx-r5-Lh1"/>
+                        <outlet property="greenValueLabel" destination="Idg-qC-Wi2" id="vnb-NY-pNs"/>
                         <outlet property="redSlider" destination="BhT-yI-BHd" id="3IJ-s0-Ds6"/>
+                        <outlet property="redValueLabel" destination="by9-98-Jjg" id="DiJ-ov-v3z"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
